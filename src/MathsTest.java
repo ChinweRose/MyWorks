@@ -15,10 +15,10 @@ class MathsTest {
 
     @Test
     public void test_subtract() {
-        int result = maths.subtract(10, 4, 6);
+        int result = maths.subtract(10, 4, 5);
     }
 
     private void add(int result) {
-        Assertions.assertEquals(result, 0);
+        Assertions.assertEquals(result, 1);
     }
 }
